@@ -7,27 +7,27 @@ To request data, you will write to the input file (pplinp.txt).
 As dicussed previously, the format of the file will need to be as such:
 
 -- START OF FILE --
-[ User search query ]
-[ Number of directories to search ]
-[ Dir name ] [ Number of people in directory ]
-[ Person name ]
-[ Person description ]
-...
-...
-...
-[ Person name ]
-[ Person description ]
-...
-...
-...
-[ Dir name ] [ Number of people in directory ]
-[ Person name ]
-[ Person description ]
-...
-...
-...
-[ Person name ]
-[ Person description ]
+[ User search query ]<br>
+[ Number of directories to search ]<br>
+[ Dir name ] [ Number of people in directory ]<br>
+[ Person name ]<br>
+[ Person description ]<br>
+...<br>
+...<br>
+...<br>
+[ Person name ]<br>
+[ Person description ]<br>
+...<br>
+...<br>
+...<br>
+[ Dir name ] [ Number of people in directory ]<br>
+[ Person name ]<br>
+[ Person description ]<br>
+...<br>
+...<br>
+...<br>
+[ Person name ]<br>
+[ Person description ]<br>
 -- END OF FILE --
 
 To elaborate on the format given above, the line 'User search query' 
@@ -72,12 +72,12 @@ To receive data, you will need to read from the output file (pplout.txt).
 As previously discussed, the output will be in the following format:
 
 --FILE START--
-[ Number of matches found ]
-[ Index of persons directory  ] [ Persons index within the directory ]
-...
-...
-...
-[ Index of persons directory  ] [ Persons index within the directory ]
+[ Number of matches found ] <br>
+[ Index of persons directory  ] [ Persons index within the directory ]<br>
+...<br>
+...<br>
+...<br>
+[ Index of persons directory  ] [ Persons index within the directory ]<br>
 --FILE END--
 
 To elaborate on the format above, the file consists of two important parts.
@@ -89,9 +89,9 @@ to quickly access each person that had a name similar to the users search query.
 Heres an example of how the output might look:
 
 --FILE START--
-2
-0 0
-2 1
+2<br>
+0 0<br>
+2 1<br>
 --FILE END--
 
 # UML sequence diagram:
